@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+
+}
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,1)), url('../pictures/fine.jpg');
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ 	
+
+ .logo img{
+
+ 	float: left;
+ 	width: 1px;
+  height: 1px;
+ 	height: auto;
+
+ }
+
+ .main{
+ 	max-width: 1200px;
+ 	margin : auto;
+ }
+
+ .title{
+ 	position: absolute;
+ 	top: 47%;
+ 	left: 50%;
+ 	transform: translate(-50%,-50%);
+  color: #fff;
+  text-shadow: 2px 2px 8px #FF0000;
+
+ }
+  .title h1{
+  	font-size: 60px;
+    text-transform: capitalize;
+
+  }
+
+  .button{
+  	position: absolute;
+ 	  top: 76%;
+ 	  left: 53%;
+ 	  transform: translate(-50%,-50%);
+  }
+
+  .btn{
+    
+
+  	border: 1px solid #fff;
+    border-radius: 25px;
+
+
+  	padding: 10px 30px;
+  	color: black;
+  	text-decoration: none;
+  	transition: 0.9s ease;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 13px;
+    -webkit-animation: boom 1s linear 1s infinite alternate;
+  -moz-animation: boom 1s linear 1s infinite alternate;
+  animation: boom 1s linear 1s infinite alternate;
+  background: linear-gradient(120deg, #00b300, #ff3377, #ffff33,#9999ff, #6b00b3);
+  
+  font-size: 16px;
+
+  }
+  @-webkit-keyframes boom{
+    from   {text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;}
+  to {text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;}
+  
+
+
+  
+
+  }
+
+  .btn:nth-child(1n):hover{
+  	background: linear-gradient(60deg, #0059b3, #1a8cff, #66b3ff,#1a8cff, #0059b3 );
+ 	  
+  }
+
+  .btn:nth-child(2n):hover{
+    background: linear-gradient(60deg, #00b300, #1aff1a, #80ff80,#1aff1a, #00b300);
+    
+  }
+  .btn:nth-child(3n):hover{
+    background: linear-gradient(60deg, #800055, #cc0088, #ccb3ff,#cc0088, #800055);
+    
+  }
+  .btn:nth-child(4n):hover{
+    background: linear-gradient(60deg, #26734d, #39ac73,#79d2a6,#39ac73, #26734d);
+    
+    
+  }
+  .btn:nth-child(5n):hover{
+    background: linear-gradient(60deg, #00ccff, #4ddbff, #b3f0ff,#4ddbff, #00ccff);
+    
+  }
+
+  
+  

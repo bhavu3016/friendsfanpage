@@ -1,0 +1,49 @@
+body{
+	margin:0;
+	padding: 0;
+	background: #000;
+	
+}
+
+div{
+	position: absolute;
+	top: 10%;
+	left: 35%;
+	width: 600px;
+	margin-bottom: 100px;
+}
+img{
+	position: absolute;
+	top: 20%;
+	left: 2%;
+	width: 610px;
+	height: 450px;
+}
+
+
+div{
+	max-width: 1000px;
+}
+h1{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	text-align: center;
+	color: #00ffff;
+	text-transform: uppercase;
+	font-size: 5em;
+	filter: blur(1px);
+	font-weight: 100;
+	text-shadow: 0 0 10px rgba(255,255,255,1),
+	             0 0 20px rgba(255,255,255,1),
+                 0 0 40px rgba(255,255,255,1),
+                 0 0 80px rgba(255,255,255,1),
+                 0 0 160px rgba(255,255,255,1);
+
+}
+p{
+	font-size: 1em;
+	color: white;
+
+}
